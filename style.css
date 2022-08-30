@@ -1,0 +1,47 @@
+.test{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    transition: all ease 500ms;
+}
+
+.test.active{
+    background-color: aqua;
+    width: 350px;
+}
+
+.section{
+    display: inline-block;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faq{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.faq dt{
+    background-color: azure;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.faq dd{
+    display: none;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 15px;
+}
+
+.item{
+    background-color: aquamarine;
+    height: 100px;
+
+}
